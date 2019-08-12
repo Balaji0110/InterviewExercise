@@ -1,0 +1,18 @@
+excluded:
+ - Carthage
+ - Pods
+line_length: 200
+cyclomatic_complexity:
+  ignores_case_statements: true
+nesting:
+  type_level:
+    warning: 2
+  statement_level:
+    warning: 10
+disabled_rules:
+  - nesting
+  - todo
+  - trailing_whitespace
+  - ignores_empty_lines
+  - force_unwrapping
+  - ignores_comments

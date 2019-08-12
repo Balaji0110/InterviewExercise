@@ -1,0 +1,7 @@
+platform :ios, '12.0'
+use_frameworks!
+
+target 'CodingExercise' do
+  pod 'SwiftLint'
+  pod 'NVActivityIndicatorView'
+end
